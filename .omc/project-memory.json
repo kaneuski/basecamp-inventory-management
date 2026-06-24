@@ -1,0 +1,226 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1782319879263,
+  "projectRoot": "/Users/Siarhei_Kaneuski/Work/Basecamp-Exercises/day1/01_claude-code-workshop/inventory-management-main",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": ["package.json"]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": ["docs", "scripts", "tests"],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "client": {
+      "path": "client",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1782319879227,
+      "keyFiles": [
+        "CLAUDE.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "vite.config.js"
+      ]
+    },
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 1,
+      "lastAccessed": 1782319879227,
+      "keyFiles": ["dashboard-screenshot.png"]
+    },
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 2,
+      "lastAccessed": 1782319879233,
+      "keyFiles": ["start.sh", "stop.sh"]
+    },
+    "server": {
+      "path": "server",
+      "purpose": null,
+      "fileCount": 7,
+      "lastAccessed": 1782319879246,
+      "keyFiles": [
+        "CLAUDE.md",
+        "generate_data.py",
+        "main.py",
+        "mock_data.py",
+        "pyproject.toml"
+      ]
+    },
+    "tests": {
+      "path": "tests",
+      "purpose": "Test files",
+      "fileCount": 3,
+      "lastAccessed": 1782319879247,
+      "keyFiles": ["README.md", "TEST_SUMMARY.md", "pytest.ini"]
+    },
+    "client/node_modules": {
+      "path": "client/node_modules",
+      "purpose": "Dependencies",
+      "fileCount": 1,
+      "lastAccessed": 1782319879249,
+      "keyFiles": []
+    },
+    "client/src": {
+      "path": "client/src",
+      "purpose": "Source code",
+      "fileCount": 3,
+      "lastAccessed": 1782319879250,
+      "keyFiles": ["App.vue", "api.js", "main.js"]
+    },
+    "server/data": {
+      "path": "server/data",
+      "purpose": "Data files",
+      "fileCount": 7,
+      "lastAccessed": 1782319879252,
+      "keyFiles": [
+        "backlog_items.json",
+        "demand_forecasts.json",
+        "inventory.json"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "client/src/App.vue",
+      "accessCount": 2,
+      "lastAccessed": 1782321196824,
+      "type": "file"
+    },
+    {
+      "path": "client/src/main.js",
+      "accessCount": 2,
+      "lastAccessed": 1782321425166,
+      "type": "file"
+    },
+    {
+      "path": "client/src/api.js",
+      "accessCount": 2,
+      "lastAccessed": 1782321431244,
+      "type": "file"
+    },
+    {
+      "path": "CLAUDE.md",
+      "accessCount": 1,
+      "lastAccessed": 1782320602827,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 1,
+      "lastAccessed": 1782320603122,
+      "type": "file"
+    },
+    {
+      "path": "server/main.py",
+      "accessCount": 1,
+      "lastAccessed": 1782320603325,
+      "type": "file"
+    },
+    {
+      "path": "server/mock_data.py",
+      "accessCount": 1,
+      "lastAccessed": 1782320603434,
+      "type": "file"
+    },
+    {
+      "path": "server/requirements.txt",
+      "accessCount": 1,
+      "lastAccessed": 1782320607714,
+      "type": "file"
+    },
+    {
+      "path": "client/package.json",
+      "accessCount": 1,
+      "lastAccessed": 1782320612597,
+      "type": "file"
+    },
+    {
+      "path": "client/src/composables/useFilters.js",
+      "accessCount": 1,
+      "lastAccessed": 1782320629647,
+      "type": "file"
+    },
+    {
+      "path": "client/src/views/Inventory.vue",
+      "accessCount": 1,
+      "lastAccessed": 1782320630103,
+      "type": "file"
+    },
+    {
+      "path": "server/data/inventory.json",
+      "accessCount": 1,
+      "lastAccessed": 1782320633869,
+      "type": "file"
+    },
+    {
+      "path": "architecture.html",
+      "accessCount": 1,
+      "lastAccessed": 1782320791158,
+      "type": "file"
+    },
+    {
+      "path": ".playwright-mcp/architecture-preview.png",
+      "accessCount": 1,
+      "lastAccessed": 1782320820503,
+      "type": "file"
+    },
+    {
+      "path": "client/src/views/Demand.vue",
+      "accessCount": 1,
+      "lastAccessed": 1782321197841,
+      "type": "file"
+    },
+    {
+      "path": "client/src/views/Orders.vue",
+      "accessCount": 1,
+      "lastAccessed": 1782321424382,
+      "type": "file"
+    },
+    {
+      "path": "server/data/orders.json",
+      "accessCount": 1,
+      "lastAccessed": 1782321424593,
+      "type": "file"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-06-24-restocking-tab-design.md",
+      "accessCount": 1,
+      "lastAccessed": 1782321760195,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
