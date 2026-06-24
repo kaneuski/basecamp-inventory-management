@@ -1,0 +1,17 @@
+{
+  "agents": [
+    {
+      "agent_id": "a6b00a502c7ed95b4",
+      "agent_type": "security-auditor",
+      "started_at": "2026-06-19T20:40:24.590Z",
+      "parent_mode": "none",
+      "status": "completed",
+      "completed_at": "2026-06-19T20:41:23.635Z",
+      "duration_ms": 59045
+    }
+  ],
+  "total_spawned": 1,
+  "total_completed": 1,
+  "total_failed": 0,
+  "last_updated": "2026-06-19T20:41:23.738Z"
+}
